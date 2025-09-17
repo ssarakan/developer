@@ -20,6 +20,7 @@ In this lab, you will:
 * You have signed up for an account with Oracle Cloud Infrastructure and have received your sign-in credentials.
 * You are using an Oracle Linux image on your Managed Instance for this workshop.
 * Access to the cloud environment and resources configured in [Lab 5](?lab=track-java-servers).
+* Advanced usage tracking is enabled on the fleet.
 * Familiarity with Building and Running a Java SE Application
 
 ## Task 1: Detect Java libraries in deployed Java Web Application
@@ -27,7 +28,7 @@ In this lab, you will:
 1. This task assumes a sample Java Web Application has been deployed on a running WebLogic server in a managed instance.
   * Refer to **Lab 5, Task 2** to restart the WebLogic server with sample application if it has stopped.
 
-2. Open the navigation menu, click **Observability & Management**. Under **Java Management**, select **Fleets**.  
+2. Open the navigation menu, click **Observability & Management**. Under **Java Management**, select **Fleets**.
      ![image of navigation menu](images/console-navigation-jms.png)
        Select the fleet with the advanced feature, **Lifecycle management** enabled. Refer to  [Lab 1](?lab=set-up-and-enable-advanced-features-on-java-management-service).
 
@@ -36,7 +37,10 @@ In this lab, you will:
     Select the **Scan** button to send a work request.
      ![image of confirmation page to create java libraries scan request](images/scan-java-libraries-submit.png)
 
-4. Scroll down the Fleet details page, under **Resources** menu, select **Work Request**. You should see the Scan for Java libraries Work Request you submitted in step 2. Wait for the work request to complete.
+     > **Note:** You can also schedule Scan for Java libraries by selecting **Schedule for later** and setting the schedule preference. Once submitted, you should see a new Scheduled task been created. To view/manage the scheduled task, refer to [Lab 4](?lab=view-and-manage-scheduled-tasks)
+     > ![image of confirmation page to schedule java libraries scan request](images/scan-java-libraries-submit-later.png)
+
+4. Scroll down the Fleet details page, under **Resources** menu, select **Work Request**. You should see the Scan for Java libraries Work Request you submitted in step 3. Wait for the work request to complete.
      ![image of work request for java libraries in progress](images/work-request-of-libraries-scan-in-progress.png)
 
 5. If your request is successful, you should see that the Status of the request is marked as **Completed without errors**. 
@@ -129,4 +133,4 @@ You may now **proceed to the next lab.**
 ## Acknowledgements
 
 * **Author** - Youcheng Li, Java Management Service
-* **Last Updated By** - Hannah Wong, May 2025
+* **Last Updated By** - Satish Sarakanam, Sep 2025
