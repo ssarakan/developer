@@ -39,9 +39,7 @@ In this lab, you will:
 4. The Delete Java Runtimes summary window will open. You will see a message with an archives link to the Oracle Java Runtime Download. You will also see a Summary table that lists the affected resources, including **Applications, Runtime versions, Managed Instances** and **Installations**. By default, the Summary table is sorted by applications, so the runtimes are presented in the order of least invoked to most invoked in the time frame selected. You may also click the link under Runtime version to open its details page in a new window. Select **Submit request** and click **Submit**.
 ![image of delete runtime submit now](images/delete-runtime-submit-now.png)
 
-   > **Note:** This task demonstrates how to delete Java runtimes at the fleet level. It can also be done for a single managed instance within a fleet by going to the managed instance details page > Java runtime installations.  
-
-   > **Note:** You can also schedule Java runtime deletion by selecting **Schedule for later** and setting the schedule preference. Once submitted, you should see a new Scheduled task been created. To view/manage the scheduled task, refer to [Lab 12](?lab=view-and-manage-scheduled-tasks)
+   > **Note:** This task demonstrates how to delete Java runtimes at the fleet level. It can also be done for a single managed instance within a fleet by going to the managed instance details page > Java runtime installations. You can also schedule Java runtime deletion by selecting **Schedule for later** and setting the schedule preference. Once submitted, you should see a new Scheduled task been created. To view/manage the scheduled task, refer to [Lab 12](?lab=view-and-manage-scheduled-tasks)
    > ![image of delete runtime schedule later](images/delete-runtime-schedule-later.png)
 
 ## Task 2: Verify Java Runtime Deletion
