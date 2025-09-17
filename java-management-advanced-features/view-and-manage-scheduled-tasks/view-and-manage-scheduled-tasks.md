@@ -1,4 +1,4 @@
-# View and manage scheduled tasks
+# View and manage Scheduled Tasks
 
 ## Introduction
 
