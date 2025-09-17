@@ -51,8 +51,8 @@ In this lab, you will:
 5. Select **Submit request** and click **Submit**.
     ![image of jfr submit now](images/jfr-submit-now.png)
 
-    > **Note:** You can also schedule JDK Flight Recorder (JFR) by selecting the **Schedule for later** and setting the schedule preference. Once submitted, you should see a new Scheduled task been created. To view/manage the scheduled task, refer to [Lab 4](?lab=view-and-manage-scheduled-tasks)
-    > ![image of jfr schedule later](images/jfr-schedule-later.png)
+    > **Note:** You can also schedule JDK Flight Recorder (JFR) by selecting the **Schedule for later** and setting the schedule preference. Once submitted, you should see a new Scheduled task been created. To view/manage the scheduled task, refer to [Lab 12](?lab=view-and-manage-scheduled-tasks)
+    > ![image of JDK Flight Recorder (JFR) schedule later](images/jfr-schedule-later.png)
 
 6. On the managed instance page, select **Work requests**. You should see a list of the Work Requests that are currently in your Fleet. **JDK Flight Recorder** that was started should be at the top of the list.
 
@@ -87,4 +87,4 @@ You may now **proceed to the next lab.**
 ## Acknowledgements
 
 * **Author** - Somik Khan, November 2022
-* **Last Updated By** - Satish Sarakanam, May 2025
+* **Last Updated By** - Satish Sarakanam, Sep 2025

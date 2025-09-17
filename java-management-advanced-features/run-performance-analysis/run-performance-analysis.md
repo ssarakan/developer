@@ -47,7 +47,7 @@ In this lab, you will:
 5. Once the changes are done, select **Submit request** and click **Submit**.
    ![image of performance analysis submit now](images/performance-analysis-submit-now.png)
 
-   > **Note:** You can also schedule performance analysis by selecting the **Schedule for later** and setting the schedule preference. Once submitted, you should see a new Scheduled task been created. To view/manage the scheduled task, refer to [Lab 4](?lab=view-and-manage-scheduled-tasks)
+   > **Note:** You can also schedule performance analysis by selecting the **Schedule for later** and setting the schedule preference. Once submitted, you should see a new Scheduled task been created. To view/manage the scheduled task, refer to [Lab 12](?lab=view-and-manage-scheduled-tasks)
    > ![image of performance analysis schedule later](images/performance-analysis-schedule-later.png)
 
 6. On the managed instance page, select **Work requests**. You should see a list of the Work Requests that are currently in your Fleet. **Performance analysis** that was started should be at the top of the list.
@@ -120,4 +120,4 @@ In this lab, you will:
 ## Acknowledgements
 
 * **Author** - Ivan Eng, Java Management Service
-* **Last Updated By** - Satish Sarakanam, May 2025
+* **Last Updated By** - Satish Sarakanam, Sep 2025
