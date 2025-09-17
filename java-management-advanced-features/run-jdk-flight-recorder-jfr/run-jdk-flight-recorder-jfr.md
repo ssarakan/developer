@@ -14,13 +14,12 @@ In this lab, you will:
 * View and monitor the status of Work Requests created using the Java Management Service console interface.
 * Download the generated JFR file for further analysis.
 
-
-
 ### Prerequisites
 
 * You have signed up for an account with Oracle Cloud Infrastructure and have received your sign-in credentials.
 * You are using an Oracle Linux image or Windows OS on your Managed Instance for this workshop.
 * Access to the cloud environment and resources configured in [Lab 1](?lab=set-up-and-enable-advanced-features-on-java-management-service).
+* JDK Flight Recorder (JFR) is enabled on the fleet.
 * Have a Java application capable of running longer than 15 mins in your instance.
 
 ## Task 1: Submit JDK Flight Recorder Work Request
@@ -29,13 +28,13 @@ In this lab, you will:
 
     ![image of console navigation to java management service](images/console-navigation-jms.png)
 
-2. Scroll down the **Fleet** details page. Under the **Resources** menu, select **Managed instances**.
+2. Under the **Resources** tab, select **Managed instances**.
 
-    You should see a list of Managed instances that are currently in your Fleet. Select the Managed instance you are interested in.
+   You should see a list of Managed instances that are currently in your Fleet. Select the Managed instance you are interested in.
 
-    ![image of fleet details page with jfr button](images/fleet-managed-instances.png)
+   ![image of fleet details page with jfr button](images/fleet-managed-instances.png)
 
-3. Scroll down and under **Resources**, select **Applications**. You should see a list of Java applications running in this managed instance. Select the long running Java application you want to run with JFR.  Click on **Actions** and select **Run JDK Flight Recorder**.
+3. Under the **Resources** tab, select **Applications**. You should see a list of Java applications running in this managed instance. Select the long running Java application you want to run with JFR.  Click on **Actions** and select **Run JDK Flight Recorder**.
 
     ![image of jfr run settings](images/managed-instance-applications-run-jfr.png)
 
@@ -43,27 +42,25 @@ In this lab, you will:
 
     Under the **Select default profiles**, click the dropdown menu and select **Default.jfc**.
 
-    Lower the **Max recording duration** to **5 mins** and keep **Max recording size** at **500MB**. Click **Start** to begin the JFR recording.
+    Lower the **Max recording duration** to **5 mins** and keep **Max recording size** at **500MB**.
 
     > Note: Ensure your application runs longer than the duration specified.
 
-    ![image of jfr configs before starting](images/jfr-config-start.png)
+    ![image of jfr configs](images/jfr-configuration.png)
 
-    ![image of work request](images/jfr-work-request-started-notification.png)
+5. Select **Submit request** and click **Submit**.
+    ![image of jfr submit now](images/jfr-submit-now.png)
 
-5. Click on the **fleet** name at the top of the **Managed Instance** page. This should navigate back to the **Fleet** details page.
+    > **Note:** You can also schedule JDK Flight Recorder (JFR) by selecting the **Schedule for later** and setting the schedule preference. Once submitted, you should see a new Scheduled task been created. To view/manage the scheduled task, refer to [Lab 4](?lab=view-and-manage-scheduled-tasks)
+    > ![image of jfr schedule later](images/jfr-schedule-later.png)
 
-    ![image of work request](images/managed-instance-to-fleet-navigation.png)
-
-6. Scroll down to the **Resources** menu and select **Work requests**. You should see a list of the Work Requests that are currently in your Fleet. **JDK Flight Recorder** that was started should be at the top of the list.
+6. On the managed instance page, select **Work requests**. You should see a list of the Work Requests that are currently in your Fleet. **JDK Flight Recorder** that was started should be at the top of the list.
 
     ![image of work request](images/jfr-work-request-started.png)
 
 7. Wait for the work request to be processed. If the work request has been completed successfully, the status will change to **Completed without Errors**.
 
     > **Note:** It will take approximately 15 minutes for the request to be completed.
-
-    ![image of work request completed](images/jfr-work-request-completed.png)
 
 8. To access the report, navigate to the **Fleet** details page and click the **Object storage bucket** name under **Object storage**.
 
@@ -73,23 +70,21 @@ In this lab, you will:
 
     ![image of crypto event analysis bucket object](images/jfr-recording-download.png)
 
-
-10. You can open the **JDK Flight Recorder** recording in your favorite JFR viewer or you can use the Oracle's **JDK Mission Control** to view the files. 
+10. You can open the **JDK Flight Recorder** recording in your favorite JFR viewer or you can use the Oracle's **JDK Mission Control** to view the files.
 
     JMC download link: https://www.oracle.com/java/technologies/jdk-mission-control.html
-
-
 
 You may now **proceed to the next lab.**
 
 ## Learn More
- * Refer to the [Advanced Features](https://docs.oracle.com/en-us/iaas/jms/doc/advanced-features.html), [Work Requests](https://docs.oracle.com/en-us/iaas/jms/doc/using-java-management-service.html#GUID-77AEEBC0-93A5-4E99-96D6-BEE0FEE4539F) sections of the JMS documentation for more details.
 
- * Use the [Troubleshooting](https://docs.oracle.com/en-us/iaas/jms/doc/troubleshooting.html#GUID-2D613C72-10F3-4905-A306-4F2673FB1CD3) chapter for explanations on how to diagnose and resolve common problems encountered when installing or using Java Management Service.
+* Refer to the [Advanced Features](https://docs.oracle.com/en-us/iaas/jms/doc/advanced-features.html), [Work Requests](https://docs.oracle.com/en-us/iaas/jms/doc/using-java-management-service.html#GUID-77AEEBC0-93A5-4E99-96D6-BEE0FEE4539F) sections of the JMS documentation for more details.
 
- * If the problem still persists or it is not listed, then refer to the [Getting Help and Contacting Support](https://docs.oracle.com/en-us/iaas/Content/GSG/Tasks/contactingsupport.htm) section. You can also open a support service request using the **Help** menu in the OCI console.
+* Use the [Troubleshooting](https://docs.oracle.com/en-us/iaas/jms/doc/troubleshooting.html#GUID-2D613C72-10F3-4905-A306-4F2673FB1CD3) chapter for explanations on how to diagnose and resolve common problems encountered when installing or using Java Management Service.
+
+* If the problem still persists or it is not listed, then refer to the [Getting Help and Contacting Support](https://docs.oracle.com/en-us/iaas/Content/GSG/Tasks/contactingsupport.htm) section. You can also open a support service request using the **Help** menu in the OCI console.
 
 ## Acknowledgements
 
 * **Author** - Somik Khan, November 2022
-* **Last Updated By** - Hannah Wong, May 2025
+* **Last Updated By** - Satish Sarakanam, May 2025
