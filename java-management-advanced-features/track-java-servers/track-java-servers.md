@@ -89,7 +89,7 @@ In this lab, you will:
     On the Scan for Java servers panel, select **Submit request** and click **Submit**.
     ![image of scan for java servers submit now](images/scan-for-java-servers-submit-now.png)
 
-    > **Note:** You can also schedule Scan for Java servers by selecting the **Schedule for later** and setting the schedule preference. Once submitted, you should see a new Scheduled task been created. To view/manage the scheduled task, refer to [Lab 4](?lab=view-and-manage-scheduled-tasks)
+    > **Note:** You can also schedule Scan for Java servers by selecting the **Schedule for later** and setting the schedule preference. Once submitted, you should see a new Scheduled task been created. To view/manage the scheduled task, refer to [Lab 12](?lab=view-and-manage-scheduled-tasks)
     > ![image of scan for java servers schedule later](images/scan-for-java-servers-schedule-later.png)
 
 3. Under the same **Resources** tab, select **Work Requests**. You can see the Scan for Java servers Work Request you submitted in the last step. Wait for the work request to complete.
@@ -134,4 +134,4 @@ You may now **proceed to the next lab.**
 ## Acknowledgements
 
 * **Author** - Youcheng Li, Java Management Service
-* **Last Updated By** - Satish Sarakanam, May 2025
+* **Last Updated By** - Satish Sarakanam, Sep 2025

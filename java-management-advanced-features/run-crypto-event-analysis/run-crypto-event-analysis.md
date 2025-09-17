@@ -37,7 +37,7 @@ In this lab, you will:
 
     ![image of crypto event analysis submit now](images/crypto-event-analysis-submit-now.png)
 
-    > **Note:** You can also schedule crypto event analysis by selecting the **Schedule for later** and setting the schedule preference. Once submitted, you should see a new Scheduled task been created. To view/manage the scheduled task, refer to [Lab 4](?lab=view-and-manage-scheduled-tasks)
+    > **Note:** You can also schedule crypto event analysis by selecting the **Schedule for later** and setting the schedule preference. Once submitted, you should see a new Scheduled task been created. To view/manage the scheduled task, refer to [Lab 12](?lab=view-and-manage-scheduled-tasks)
     ![image of crypto event analysis schedule later](images/crypto-event-analysis-schedule-later.png)
 
 4. On the Fleet details page, select **Work requests** tab.

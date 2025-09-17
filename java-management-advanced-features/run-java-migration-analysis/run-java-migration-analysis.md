@@ -54,7 +54,7 @@ In this lab, you will:
 
    ![image of Java migration analysis submit now](images/java-migration-analysis-submit-now.png)
 
-   > **Note:** You can also schedule Java migration analysis by selecting the **Schedule for later** and setting the schedule preference. Once submitted, you should see a new Scheduled task been created. To view/manage the scheduled task, refer to [Lab 4](?lab=view-and-manage-scheduled-tasks)
+   > **Note:** You can also schedule Java migration analysis by selecting the **Schedule for later** and setting the schedule preference. Once submitted, you should see a new Scheduled task been created. To view/manage the scheduled task, refer to [Lab 12](?lab=view-and-manage-scheduled-tasks)
    > ![image of Java migration analysis schedule later](images/java-migration-analysis-schedule-later.png)
 
 6. On the same **Managed Instance** page, select **Work requests** under the resources tab. You should see a list of work requests created in your fleet.

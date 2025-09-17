@@ -138,7 +138,7 @@ In this lab, you will:
 8. Select **Submit request** and click **Submit**. This request is termed as a **Work Request**.
 ![image of install java runtime submit now](images/install-java-runtime-submit-now.png)
 
-   > **Note:** You can also schedule the installation by selecting **Schedule for later** and setting the schedule preference. Once submitted, you should see a new Scheduled task been created. To view/manage the scheduled task, refer to [Lab 4](?lab=view-and-manage-scheduled-tasks)
+   > **Note:** You can also schedule the installation by selecting **Schedule for later** and setting the schedule preference. Once submitted, you should see a new Scheduled task been created. To view/manage the scheduled task, refer to [Lab 12](?lab=view-and-manage-scheduled-tasks)
    > ![image of install java runtime schedule later](images/install-java-runtime-schedule-later.png)
 
 ## Task 3: Verify Java Runtime Installation and Post Java Installation Action
