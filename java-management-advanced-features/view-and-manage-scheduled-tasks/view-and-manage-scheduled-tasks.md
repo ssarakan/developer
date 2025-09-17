@@ -26,7 +26,7 @@ In this lab, you will:
     * [Detect Java Libraries](?lab=detect-java-libraries)
     * [Run Crypto Event Analysis](?lab=run-crypto-event-analysis)
     * [Run Java Migration Analysis](?lab=run-java-migration-analysis)
-    * [Run JDK Flight Recorder (JFR)](?lab=run-jdk-flightrecorder-jfr)
+    * [Run JDK Flight Recorder (JFR)](?lab=run-jdk-flight-recorder-jfr)
     * [Run Performance Analysis](?lab=run-performance-analysis)
     * [Track Java Servers](?lab=track-java-servers)
 
